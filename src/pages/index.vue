@@ -32,11 +32,11 @@ const input = ref('')
                     <div class="rounded-lg bg-#EDEDED py-10px px-25px">
                         <div class="font-bold">NHẬP BIỂN SỐ XE CỦA BẠN</div>
 
-                        <div class="flex items-center">
+                        <div class="flex items-center gap-1">
                             <div class="bg-white rounded-50px px-15px py-10px flex items-center">
-                                <el-input class="[&_.el-input\_\_inner]:outline-none h-29px" style="width: 386px" v-model="input" placeholder="Nhập 5 số biển số xe"/>
+                                <input class="outline-none h-29px" style="width: 386px" v-model="input" placeholder="Nhập 5 số biển số xe"/>
                             </div>
-                            <el-button round><i class='bx bx-search'></i></el-button>
+                            <button  class="w-123px h-50px bg-#AD0909 rounded-50px flex items-center justify-center text-white"><i class='bx bx-search text-20px'></i></button>
                         </div>
                     </div>
                 </div>
@@ -80,4 +80,7 @@ const input = ref('')
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: 50% 50%;
-}</style>
+}
+
+
+</style>
